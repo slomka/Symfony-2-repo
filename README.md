@@ -6,14 +6,16 @@ bin/ - polecenia wsadowe pakietów dodatkowych
 src/ - kod źródłowy aplikacji
 vendor/ - pakiety dodatkowe – np. doctrine, twig, swiftmailer
 web/ - folder zawierający główny kontroler aplikacji – skrypt app.php, CSS, pliki graficzne, javascript. Jedyny dostępny publicznie katalog za pomocą HTTP.
+
 Assets – w dokumentacji Symfony2 określane są style.css, .js, pliki graficzne .jpg .gif.
 
-Symfony2 jest zaimplementowane obiektowo z wykorzystaniem przestrzeni nazw (namespace). Aplikacja tworzona w Symfony2 jest podzielona na:
-pakiety (bundle),
-kontrolery (controller),
-akcje (action)
-widoki (view).
-
+Symfony2 jest zaimplementowane obiektowo z wykorzystaniem przestrzeni nazw (namespace). 
+Aplikacja tworzona w Symfony2 jest podzielona na:
+	pakiety (bundle),
+	kontrolery (controller),
+	akcje (action)
+	widoki (view).
+	
 Przestrzenie nazw umożliwiają stosowanie  wieloczłonowych nazw klas – struktura drzewa np.:
 Symfony\Component\ClassLoader\UniversalClassLoader
 Przestrzenie nazw tworzone poprzez umieszczanie klasy w osobnych katalogach i dołączaniu deklaracji namespace.
