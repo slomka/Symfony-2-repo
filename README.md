@@ -1,13 +1,12 @@
-<b>Symfony2
-
-Struktura katalogów archiwum Symfony:</b>
+<h1><b>Symfony2</h1>
+<p>Struktura katalogów archiwum Symfony:</b>
 
 	app/ - pliki konfiguracyjne aplikacji,
 	bin/ - polecenia wsadowe pakietów dodatkowych
 	src/ - kod źródłowy aplikacji
 	vendor/ - pakiety dodatkowe – np. doctrine, twig, swiftmailer
 	web/ - folder zawierający główny kontroler aplikacji – skrypt app.php, CSS, pliki graficzne, javascript. 		       Jedyny dostępny publicznie katalog za pomocą HTTP.
-
+	
 Assets – w dokumentacji Symfony2 określane są style.css, .js, pliki graficzne .jpg .gif.
 
 Symfony2 jest zaimplementowane obiektowo z wykorzystaniem przestrzeni nazw (namespace).
