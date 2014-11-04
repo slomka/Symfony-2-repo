@@ -1,3 +1,5 @@
+https://github.com/slomka/Symfony-2-repo.wiki.git
+
 <h1><b>Symfony2</h1>
 <p>Struktura katalogów archiwum Symfony:</b>
 
