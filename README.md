@@ -57,9 +57,7 @@ php app/console generate:bundle -–namespace=MyHelloWorldBundle --dir=src -–n
 
 .htaccess->deny from all->blokuje dostęp do zawartości folderu xxx/src/ za pomocą protokołu HTTP (nie da się zajrzeć za pomocą przeglądarki).
 
-Web Debug Toolbar – pasek narzędzi developerskich – wyświetlany jest tylko w trybie deweloperskim i gdy strona zawiera znaczniki <html> i <body>.
-
-Środowisko jest zestawem opcji konfiguracyjnych ustalających parametry pracy aplikacji. 
+Web Debug Toolbar – pasek narzędzi developerskich – wyświetlany jest tylko w trybie deweloperskim i gdy strona zawiera znaczniki '<html>' i '<body>'. Środowisko jest zestawem opcji konfiguracyjnych ustalających parametry pracy aplikacji. 
 
 app.php – front kontroler uruchamiający aplikację w środowisku prod;
 app_dev.php - front kontroler uruchamiający aplikację w środowisku dev.
@@ -96,7 +94,7 @@ php app/console assets:install web
 
 <b>Twig – załączanie dekoracji widoku akcji z folderu np. My/LoremBundle/Resource/views:</b>
 {% extends ”MyLoremBundle::layout.html.twig” %}
-{% block content %} //ustala treść któ©a zostanie umieszczona w 					  bloku
+{% block content %} //ustala treść któ©a zostanie umieszczona w bloku
 {% endblock %}
 
 MyLoremBundle – nazwa pakietu
@@ -157,8 +155,6 @@ php app/console doctrine:fixtures:load
 
 <b>Usuwanie z systemu niepotrzebnych pakietów:</b>
 sudo apt-get autoremove
-
-
 
 
 <b>Doctrine2</b>
